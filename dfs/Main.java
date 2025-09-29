@@ -22,9 +22,10 @@ public class Main {
         grafo.adicionarVertice(vG);
         grafo.adicionarVertice(vH);
        
-        Aresta aAB = new Aresta(vA, vB);
+        
         Aresta aAH = new Aresta(vA, vH);
         Aresta aAC = new Aresta(vA, vC);
+        Aresta aAB = new Aresta(vA, vB);
         Aresta aBD = new Aresta(vB, vD);
         Aresta aBF = new Aresta(vB, vF);
         Aresta aFC = new Aresta(vF, vC);
