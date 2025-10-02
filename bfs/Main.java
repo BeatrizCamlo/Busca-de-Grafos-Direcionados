@@ -1,4 +1,4 @@
-package leitura;
+package bfs;
 
 public class Main {
     
