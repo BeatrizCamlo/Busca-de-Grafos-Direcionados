@@ -12,7 +12,9 @@ public class Grafo {
     }
 
     public void adicionarVertice(Vertice v) {
+        if (!vertices.contains(v)){
         vertices.add(v);
+        }
     }
 
     public void adicionarAresta(Aresta a) {
