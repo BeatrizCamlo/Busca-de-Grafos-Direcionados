@@ -1,0 +1,16 @@
+# Pasta de saída de compilação do IntelliJ IDEA
+out/
+
+# Arquivos compilados Java
+*.class
+
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
+*.iml
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log

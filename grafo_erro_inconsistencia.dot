@@ -1,0 +1,4 @@
+digraph grafo_erro {
+    a -> b -> c;
+    b -- d;  // ERRO: -- em grafo direcionado
+}
