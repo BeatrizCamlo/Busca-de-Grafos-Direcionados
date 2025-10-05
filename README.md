@@ -57,3 +57,19 @@ graph nome {
 - **Extensão**: apenas `.dot` e `.gv` são aceitos
 - **Consistência**: `digraph` deve usar `->`, `graph` deve usar `--`
 - **Em caso de erro**: apenas mensagens de erro são exibidas, grafo não é mostrado
+
+## ▶️ Como Compilar e Executar
+
+
+- **Navegue até a pasta**
+```dot
+ cd Busca-de-Grafos-Direcionados
+```
+- **Compile os arquivos necessários**
+```dot
+ javac leitura/Main.java leitura/ParserDOT.java leitura/GrafoDOT.java leitura/VerticeDOT.java leitura/ArestaDOT.java
+```
+- **Execute o programa e passe o grafo presente na pasta de sua escolha**
+```dot
+ java -cp . leitura.Main <grafo.dot>
+```
