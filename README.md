@@ -63,7 +63,7 @@ graph nome {
 
 - **Navegue até a pasta**
 ```dot
- cd cd Busca-de-Grafos-Direcionados
+ cd Busca-de-Grafos-Direcionados
 ```
 - **Compile os arquivos necessários**
 ```dot
