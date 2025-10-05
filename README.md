@@ -61,12 +61,12 @@ graph nome {
 ## ▶️ Como Compilar e Executar
 
 
-- **Navegue até a pasta**
-``` dot cd cd Busca-de-Grafos-Direcionados 
+- **Navegue até a pasta
+```dot cd cd Busca-de-Grafos-Direcionados 
 ```
-- **Compile os arquivos necessários**
-``` dot javac leitura/Main.java leitura/ParserDOT.java leitura/GrafoDOT.java leitura/VerticeDOT.java leitura/ArestaDOT.java
+- **Compile os arquivos necessários
+```dot javac leitura/Main.java leitura/ParserDOT.java leitura/GrafoDOT.java leitura/VerticeDOT.java leitura/ArestaDOT.java
 ```
-- **Execute o programa e passe o grafo presente na pasta de sua escolha**
+- **Execute o programa e passe o grafo presente na pasta de sua escolha
 ``` dot java -cp . leitura.Main <grafo.dot>
 ```
